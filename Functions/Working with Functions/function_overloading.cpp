@@ -16,7 +16,7 @@ float volume(float r, float h)
 int main()
 {
     cout<<"Volume of Cube: "<<volume(4)<<endl;
-    cout<<"Volume of Cylinder: "<<volume(7,2,4)<<endl;
+    cout<<"Volume of Cylinder: "<<volume(7,4)<<endl;
     cout<<"Volume of Rectangular Box: "<<volume(2,3,4)<<endl;
     return 0;
 }
