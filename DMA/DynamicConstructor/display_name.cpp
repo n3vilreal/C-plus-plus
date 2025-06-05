@@ -11,7 +11,7 @@ class Demo
             p = new char [1];
             strcpy(p,"");
         }
-        Demo(const char *s)
+        Demo( char *s)
         {
             p = new char(strlen(s)+1);
             strcpy(p,s);
