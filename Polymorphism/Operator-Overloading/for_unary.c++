@@ -24,6 +24,7 @@ void Sample::operator-()
     x = -x;
     y = -y;
     z = -z;
+    
 }
 int main()
 {
