@@ -45,7 +45,7 @@ public:
     Rectangle(Polar p)
     {
         x = p.getRadius()*cos(p.getAngle());
-        x = p.getRadius()*sin(p.getAngle());
+        y = p.getRadius()*sin(p.getAngle());
     }
     void display()
     {
