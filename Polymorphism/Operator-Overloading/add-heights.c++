@@ -16,7 +16,7 @@ public:
         feet = a;
         inch =b;
     }
-    friend Height operator +(Height h1, Height h2)
+    friend Height operator +(Height &h1, Height &h2)
     {
         Height temp;
         temp.feet = h1.feet + h2.feet;
